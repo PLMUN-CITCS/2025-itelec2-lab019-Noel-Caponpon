@@ -12,7 +12,6 @@ def problem_one(score):
         return 'F'
 
 score = float(input("Enter your score: "))
-
 if 0 <= score <= 100:
         print(f"Your Grade is: {problem_one(score)}")
 else:
